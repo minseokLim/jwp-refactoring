@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':menu-module')
+    implementation project(':order-module')
+    implementation project(':product-module')
+    implementation project(':table-module')
+
+    implementation 'org.flywaydb:flyway-core'
+    testImplementation 'io.rest-assured:rest-assured'
+}
